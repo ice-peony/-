@@ -1,0 +1,2 @@
+data:1 interval:2 stuId:1 stuName:张三 roomId:3 statu:
+data:3 interval:1 stuId:1 stuName:张三 roomId:2 statu:

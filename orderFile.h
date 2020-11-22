@@ -1,0 +1,22 @@
+#pragma once
+#include <iostream>
+using namespace std;
+#include <map>
+#include "globalFile.h"	
+#include <fstream>
+
+class OrderFile
+{
+public:
+	OrderFile(); //!!!自动生成的析构函数记得删除，否则报错！！！
+
+	//更新预约记录
+	void updataOrder();
+
+	//记录的容器 key---记录的条数。value---具体记录的键值对信息
+	map<int, map<string, string>> m_orderData;
+
+	//预约记录条数
+	int m_Size;
+
+};
